@@ -51,9 +51,9 @@
                 <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
               </rowConstraints>
             </GridPane>
-            <Button mnemonicParsing="false" text="Delete" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
-            <Button mnemonicParsing="false" text="Edit..." AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="71.0" />
-            <Button mnemonicParsing="false" text="New" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="140.0" />
+            <Button mnemonicParsing="false" onAction="#handleDeletePerson" text="Delete" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="5.0" />
+            <Button mnemonicParsing="false" onAction="#handleEditPerson" text="Edit..." AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="71.0" />
+            <Button mnemonicParsing="false" onAction="#handleNewPerson" text="New" AnchorPane.bottomAnchor="5.0" AnchorPane.rightAnchor="140.0" />
           </children>
         </AnchorPane>
       </items>
